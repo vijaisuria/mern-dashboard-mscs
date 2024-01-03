@@ -1,0 +1,29 @@
+# Dependency directories
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+/.idea
+/.vscode
+*.swp
+*.swo
+*.log
+
+# Test coverage
+/coverage
+
+# Compiled output
+/*.js
+/*.jsx
+/*.css
+
+.env
