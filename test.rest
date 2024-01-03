@@ -1,0 +1,28 @@
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "admin1",
+    "password": "1234"
+}
+
+###
+
+GET http://localhost:5000/api/admin/hearings
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjQ5MjgyNGI0MDNlNjNkYWQ4ZDk4NmJjIiwiaWF0IjoxNjg3NDM2NDgyfQ.4fg8EL8rNWbPO6OiZPuBvsYQClMBHQXGccbRCKPX9pU
+
+###
+
+PUT http://localhost:5000/api/admin/hearings/64943d90e174de1584238e84
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoiNjQ5MjgyNGI0MDNlNjNkYWQ4ZDk4NmJjIiwiaWF0IjoxNjg3NDM2NDgyfQ.4fg8EL8rNWbPO6OiZPuBvsYQClMBHQXGccbRCKPX9pU
+
+{
+    "societyName": "Suria Society",
+    "district": "Example District",
+    "state": "Example State",
+    "postedBy": "6494391957e688375ad08e53",
+    "hearingDate": "2023-06-20T09:00:00.000Z",
+    "createdAt": "2023-06-22T12:23:51.428Z"
+}
