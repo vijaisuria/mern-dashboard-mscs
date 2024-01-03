@@ -1,0 +1,63 @@
+/* SocietyList.css */
+
+.filters-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.filter-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  .filters-container {
+    flex-direction: column;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 80%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+}
