@@ -94,11 +94,6 @@ For development mode:
 npm run dev
 ```
 
-These steps ensure proper setup for both the frontend and backend of the project. Adjust the placeholders with your specific configurations and credentials.
-```
-
-You can save this content into a file with a `.md` extension, for example, `installation_guide.md`, and it will serve as a structured installation guide for your project. Adjust the instructions and details as needed for your specific project setup.
-
 ## Usage
 
 - Access the dashboard via the provided URL.
@@ -106,15 +101,9 @@ You can save this content into a file with a `.md` extension, for example, `inst
 - Use the admin dashboard for real-time monitoring and management.
 - Engage with the feedback section and stay updated with recent news.
 
-## Contributors
-
-- [Your Name]
-- [Contributor 1]
-- [Contributor 2]
-
 ## License
 
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License] License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgements
 
