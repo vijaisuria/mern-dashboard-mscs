@@ -17,13 +17,87 @@ This project is a comprehensive dashboard designed using the MERN (MongoDB, Expr
 - Node.js: JavaScript runtime environment for executing server-side code.
 - Bootstrap: Frontend framework for responsive and sleek design implementation.
 
-## Installation
+# Project Installation Guide
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Install dependencies using `npm install`.
-4. Set up MongoDB and configure database connections.
-5. Start the application with `npm start`.
+## Frontend (Client) Installation
+
+### Step 1: Navigate to Client Folder
+
+```bash
+cd client
+```
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 3: Create Environment File
+
+Create a file named `.env` in the `client` directory and add the following key:
+
+```
+REACT_BASE_URL=YOUR_BACKEND_URL
+```
+
+Replace `YOUR_BACKEND_URL` with the base URL where the backend server will be hosted.
+
+### Step 4: Start the Application
+
+```bash
+npm start
+```
+
+## Backend (Server) Installation
+
+### Step 1: Navigate to Server Folder
+
+```bash
+cd server
+```
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 3: Create Environment File
+
+Create a file named `.env` in the `server` directory with the following keys:
+
+```
+DB_USERNAME=YOUR_DB_USERNAME
+DB_PASSWORD=YOUR_DB_PASSWORD
+DB_CLUSTERNAME=YOUR_DB_CLUSTERNAME
+DB_NAME=mscs
+```
+
+Replace `YOUR_DB_USERNAME`, `YOUR_DB_PASSWORD`, and `YOUR_DB_CLUSTERNAME` with your MongoDB database credentials.
+
+### Step 4: Create Database
+
+Ensure you have MongoDB installed and create a database named `mscs`.
+
+### Step 5: Start the Server
+
+For production:
+
+```bash
+npm start
+```
+
+For development mode:
+
+```bash
+npm run dev
+```
+
+These steps ensure proper setup for both the frontend and backend of the project. Adjust the placeholders with your specific configurations and credentials.
+```
+
+You can save this content into a file with a `.md` extension, for example, `installation_guide.md`, and it will serve as a structured installation guide for your project. Adjust the instructions and details as needed for your specific project setup.
 
 ## Usage
 
