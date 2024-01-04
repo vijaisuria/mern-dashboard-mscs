@@ -40,6 +40,7 @@ Create a file named `.env` in the `client` directory and add the following key:
 ```
 REACT_BASE_URL=YOUR_BACKEND_URL
 ```
+Backend URL: http://localhost:5000 (Update this URL with your actual backend URL)
 
 Replace `YOUR_BACKEND_URL` with the base URL where the backend server will be hosted.
 
@@ -48,6 +49,7 @@ Replace `YOUR_BACKEND_URL` with the base URL where the backend server will be ho
 ```bash
 npm start
 ```
+Frontend URL: http://localhost:3000
 
 ## Backend (Server) Installation
 
@@ -93,10 +95,12 @@ For development mode:
 ```bash
 npm run dev
 ```
+Backend URL: http://localhost:5000
 
 ## Usage
 
-- Access the dashboard via the provided URL.
+- Access the frontend deployed at [Vercel](https://mern-dashboard-mscs.vercel.app/).
+- Access the backend deployed at [Render](https://mern-dashboard-mscs-server.onrender.com/).
 - Explore interactive visualizations for society data.
 - Use the admin dashboard for real-time monitoring and management.
 - Engage with the feedback section and stay updated with recent news.
@@ -108,4 +112,4 @@ This project is licensed under the [MIT License] License - see the [LICENSE.md](
 ## Acknowledgements
 
 - [MERN Stack Documentation](https://www.mongodb.com/mern-stack)
-- [Bootstrap Documentation](https://getbootstrap.com/docs/)
+- [Bootstrap Documentation](https://getbootstrap.com/docs)
